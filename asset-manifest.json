@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dvir-segal/static/css/main.8c6ac872.css",
-    "main.js": "/dvir-segal/static/js/main.2deb27c1.js",
+    "main.css": "/dvir-segal/static/css/main.3f9bd94b.css",
+    "main.js": "/dvir-segal/static/js/main.5a558b87.js",
     "index.html": "/dvir-segal/index.html",
-    "main.8c6ac872.css.map": "/dvir-segal/static/css/main.8c6ac872.css.map",
-    "main.2deb27c1.js.map": "/dvir-segal/static/js/main.2deb27c1.js.map"
+    "main.3f9bd94b.css.map": "/dvir-segal/static/css/main.3f9bd94b.css.map",
+    "main.5a558b87.js.map": "/dvir-segal/static/js/main.5a558b87.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c6ac872.css",
-    "static/js/main.2deb27c1.js"
+    "static/css/main.3f9bd94b.css",
+    "static/js/main.5a558b87.js"
   ]
 }
