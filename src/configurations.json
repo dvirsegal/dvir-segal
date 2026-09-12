@@ -7,7 +7,7 @@
   "backgroundImageUrl": "http://hdwpro.com/wp-content/uploads/2017/03/Art-Background-Image.png",
   "icons": [
     {
-      "image": "fa-medium", 
+      "image": "fa-medium",
       "url": "https://dvirsegal.medium.com/"
     },
     {
@@ -15,7 +15,7 @@
       "url": "https://github.com/dvirsegal/"
     },
     {
-      "image": "fa-twitter",
+      "image": "fa-x-twitter",
       "url": "https://twitter.com/dvir_segal/"
     },
     {
@@ -31,8 +31,9 @@
       "url": "https://www.linkedin.com/in/dvirsegal/"
     },
     {
-      "image": "fa-pied-piper-hat",
-      "url": "https://dvirsegal.github.io/"
+      "image": "fa-blog",
+      "url": "https://dvirsegal.github.io/",
+      "prefix": "fas"
     }
   ]
 }
