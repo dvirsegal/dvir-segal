@@ -38,6 +38,8 @@
 .icons-social i {
   padding: 10px;
   font-size: 2em;
+  /* Font Awesome 7 gives icons a fixed 1.25em box width; auto restores the FA5 auto sizing so the row fits on mobile */
+  width: auto;
 }
 
 @media (min-width: 576px) {
