@@ -399,7 +399,7 @@
 
 /* Inline SVG icons (classic Medium mark) sized to match the Font Awesome glyphs */
 .icons-social i.inline-icon svg {
+  display: block;
   height: 1em;
   width: 1em;
-  vertical-align: -0.125em;
 }
