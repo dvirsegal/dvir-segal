@@ -38,3 +38,5 @@ Everything on the page comes from `src/configurations.json` - `devIntro`, `devDe
 ## Credits
 
 Forked from [singhkshitij/My-Landing-Page](https://github.com/singhkshitij/My-Landing-Page) - thanks for the great template. See [LICENSE](LICENSE).
+
+<!-- auto-deployed by Cloudflare Pages Git integration -->
