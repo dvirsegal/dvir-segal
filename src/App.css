@@ -401,6 +401,7 @@
 .icons-social i.inline-icon {
   display: inline-block;
   line-height: 0;
+  vertical-align: -0.13em;
 }
 .icons-social i.inline-icon svg {
   height: 1em;
