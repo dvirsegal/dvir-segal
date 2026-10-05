@@ -1,12 +1,12 @@
 # Dvir Segal - Personal Landing Page
 
-Source code for my personal landing page, live at **https://dvirsegal.github.io/dvir-segal/**.
+Source code for my personal landing page, live at **https://dvirsegal.pages.dev/**.
 
 A single-page React site that says hi and links out to the places I write and work:
 
 - [Blog (Medium)](https://dvirsegal.medium.com/)
 - [GitHub](https://github.com/dvirsegal/)
-- [Twitter / X](https://twitter.com/dvir_segal/)
+- [X (Twitter)](https://x.com/dvir_segal/)
 - [dev.to](https://dev.to/dejavo/)
 - [Stack Overflow](https://stackoverflow.com/users/3125120/dejavo/)
 - [LinkedIn](https://www.linkedin.com/in/dvirsegal/)
