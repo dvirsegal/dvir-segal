@@ -1,6 +1,6 @@
 {
-  "short_name": "My Page",
-  "name": "My Landing Page",
+  "short_name": "Dvir Segal",
+  "name": "Dvir Segal",
   "icons": [
     {
       "src": "favicon.ico",
@@ -11,5 +11,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#2c3e50",
-  "background_color": "#ecf0f1"
+  "background_color": "#282c34"
 }

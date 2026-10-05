@@ -180,7 +180,20 @@ class App extends Component {
 
     return (
       <div className={appClass} style={bgStyle}>
-        <div className="change-mode" onClick={this.changeThemeMode} />
+        <div
+          className="change-mode"
+          role="button"
+          tabIndex={0}
+          aria-label="Toggle light and dark theme"
+          title="Toggle theme"
+          onClick={this.changeThemeMode}
+          onKeyDown={e => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              this.changeThemeMode();
+            }
+          }}
+        />
         <div
           className={backgroundMode}
           onClick={this.changeBackgroundBasedonMode}
@@ -188,7 +201,9 @@ class App extends Component {
           <main className="App-main">
             <h1 className="intro">{devIntro}</h1>
             <div className="tagline">
-              <Typist>{devDesc}</Typist>
+              <Typist cursor={{ hideWhenDone: true, hideWhenDoneDelay: 1000 }}>
+                {devDesc}
+              </Typist>
             </div>
             <div className="icons-social">
               {icons.map(icon => (
@@ -197,6 +212,8 @@ class App extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                   href={`${icon.url}`}
+                  aria-label={icon.name}
+                  title={icon.name}
                 >
                   {icon.image === 'inline-medium' ? (
                     <i className="inline-icon">
@@ -205,7 +222,10 @@ class App extends Component {
                       </svg>
                     </i>
                   ) : (
-                    <i className={`${icon.prefix || 'fab'} ${icon.image}`} />
+                    <i
+                      className={`${icon.prefix || 'fab'} ${icon.image}`}
+                      aria-hidden="true"
+                    />
                   )}
                 </a>
               ))}
