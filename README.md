@@ -2,7 +2,7 @@
 
 Source code for my personal landing page, live at **https://dvirsegal.pages.dev/**.
 
-A single-page React site that says hi and links out to the places I write and work:
+A single static HTML page that says hi and links out to the places I write and work:
 
 - [Blog (Medium)](https://dvirsegal.medium.com/)
 - [GitHub](https://github.com/dvirsegal/)
@@ -13,27 +13,21 @@ A single-page React site that says hi and links out to the places I write and wo
 
 ## Tech stack
 
-- React 17 + Vite
-- Content driven by `src/configurations.json`: intro, tagline, background mode, social icons
-- Deployed to GitHub Pages via `gh-pages`
+- One static `index.html`: inline CSS, a few lines of vanilla JS (typing effect, theme toggle, click to cycle background colors) and inline SVG icons from Font Awesome Free (CC BY 4.0)
+- No framework and no runtime dependencies. Vite is only used as the dev server and to copy `public/` into `dist/`
+- Deployed to Cloudflare Pages on every push to `master`
 
 ## Run locally
 
 ```bash
 npm install
 npm start        # vite dev server
-```
-
-## Build and deploy
-
-```bash
-npm run build    # vite build -> dist/
-npm run deploy   # publishes dist/ to GitHub Pages
+npm run build    # -> dist/
 ```
 
 ## Customizing
 
-Everything on the page comes from `src/configurations.json` - `devIntro`, `devDesc`, background (`plain` / `gradient` / image) and the icon list. Styling lives in `src/App.css`, `src/daylight.css` and `src/nightlight.css`.
+Edit `index.html` directly: text, links and colors all live there. The background color lists are in the `modes` object in the inline script.
 
 ## Credits
 
