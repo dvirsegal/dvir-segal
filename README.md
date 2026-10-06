@@ -4,12 +4,13 @@ Source code for my personal landing page, live at **https://dvirsegal.pages.dev/
 
 A single static HTML page that says hi and links out to the places I write and work:
 
-- [Blog (Medium)](https://dvirsegal.medium.com/)
+- [Medium](https://dvirsegal.medium.com/)
 - [GitHub](https://github.com/dvirsegal/)
 - [X (Twitter)](https://x.com/dvir_segal/)
 - [dev.to](https://dev.to/dejavo/)
 - [Stack Overflow](https://stackoverflow.com/users/3125120/dejavo/)
 - [LinkedIn](https://www.linkedin.com/in/dvirsegal/)
+- [Blog](https://dvirsegal.github.io/)
 
 ## Tech stack
 
